@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "agent-buyer",
+  "version": "0.1.0",
+  "description": "Comparez des offres / Compare offers / Compare ofertas",
+  "author": {
+    "name": "Guillaume Besse",
+    "url": "https://github.com/gbesse"
+  },
+  "homepage": "https://github.com/gbesse/agent-buyer",
+  "repository": "https://github.com/gbesse/agent-buyer",
+  "license": "MIT",
+  "keywords": ["agents", "mcp", "open-source"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "agent-buyer",
+        "shortDescription": "Achats / Buying / Compras",
+        "longDescription": "Comparez des offres / Compare offers / Compare ofertas"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "agent-buyer": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${PLUGIN_ROOT}/src/cli.js",
+        "serve",
+        "${PLUGIN_DATA}/profile.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "merchants": [
+    {
+      "id": "alpha",
+      "command": ["node", "merchant.js"],
+      "env": { "PRICE": "12.50", "STOCK": "10" }
+    },
+    {
+      "id": "beta",
+      "command": ["node", "merchant.js"],
+      "env": { "PRICE": "11.20", "STOCK": "5" }
+    }
+  ]
+}
